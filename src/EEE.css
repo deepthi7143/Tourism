@@ -1,0 +1,18 @@
+/* Images.css */
+.image-card {
+    width: 50vh;
+    height: 50vh;
+    margin-top: 30px;
+    margin-left: 40px;
+    
+  }
+  
+  .image-card:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.09);
+    cursor: pointer;
+  }
+
+  
+  
+  
