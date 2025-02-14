@@ -13,7 +13,7 @@ import Vacation from "./components/Vacation";
 import Holiday from "./components/Holiday";
 import Stays from "./components/Stays";
 import Logout from "./components/Logout";
-import register from "./components/register";
+import Register from "./components/Register";
 import Chart from "./components/Chart";
 
 
@@ -49,7 +49,7 @@ const Routes = () => {
     },
     {
       path: "/register",
-      element: <register/>,
+      element: <Register/>,
     },
     {
       path: "/chart",
