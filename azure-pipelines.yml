@@ -10,11 +10,10 @@ pool:
   name: Mytrip-pool
 
 steps:
-- script: |
+- script: >
     #!/bin/bash
 
-    cd /home/ubuntu/Tourism
-
+    cd $(Build.Repository.LocalPath)
     git pull
 
     npm install
