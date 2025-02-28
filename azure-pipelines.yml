@@ -11,17 +11,6 @@ pool:
 
 steps:
 - script: >
-    #!/bin/bash
-
-    cd $(Build.Repository.LocalPath)
-    git pull
-
-    npm install
-
-    npm run build
-
-    pm2 restart $(service-name)
-
-    pm2 save
+    script: "cd /home/ubuntu/Tourism\n\necho \"execute build command\"\ngit pull\nnpm install \nnpm run build \npm2 restart Tourism \npm2 save
 
   
