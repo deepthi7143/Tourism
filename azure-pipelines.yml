@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: Tourism-agent
+  vmImage: Mytrip-pool
 
 steps:
 - task: NodeTool@0
