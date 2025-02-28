@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: Mytrip-pool
+  name: Mytrip-pool
 
 steps:
 - task: NodeTool@0
