@@ -11,9 +11,18 @@ pool:
 
 steps:
 - script: |
+    #!/bin/bash
+
     cd /home/ubuntu/Tourism
+
     git pull
+
     npm install
+
     npm run build
+
     pm2 restart $(service-name)
-  displayName: 'npm install and build'
+
+    pm2 save
+
+  
