@@ -21,7 +21,7 @@ steps:
     npm run build
 
     # Restart the pm2 Tourism
-    pm2 restart service_name  # Replace 'service_name' with the actual name of your pm2 service
+    pm2 restart Tourism  # Replace 'Tourism' with the actual name of your pm2 service
 
     # Save the pm2 process list
     pm2 save
